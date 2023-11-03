@@ -1,32 +1,130 @@
+# ASP.NET Core
+## Ignore the bin and obj directories for build output
+**/bin/
+**/obj/
 
-#Ignore thumbnails created by Windows
-Thumbs.db
-#Ignore files built by Visual Studio
-*.obj
-*.exe
-*.pdb
-*.user
-*.aps
-*.pch
-*.vspscc
-*_i.c
-*_p.c
-*.ncb
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files and settings
 *.suo
-*.tlb
-*.tlh
-*.bak
-*.cache
-*.ilk
-*.log
-[Bb]in
-[Dd]ebug*/
-*.lib
-*.sbr
-obj/
-[Rr]elease*/
-_ReSharper*/
-[Tt]est[Rr]esult*
-.vs/
-#Nuget packages folder
-packages/
+*.user
+*.sln.docstates
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code workspace settings
+.vscode/settings.json
+
+# User-specific files
+App_Data/*.mdb
+wwwroot/uploads/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+.project
+.nuget/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.idea/
+.vscode-test/
+.idea-test/
+launchSettings.json
+
+# Node.js
+node_modules/
+
+# Angular
+/dist/
+/tmp/
+*.iws
+.idea/
+
+# Compiled JavaScript and TypeScript
+*.js
+*.js.map
+*.d.ts
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Angular CLI compiled output
+/dist/
+/tmp/
+deploy/
+docs/
+tmp/
+app/tmp/
+app/assets/
+
+# Tye
+.tye/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

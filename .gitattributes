@@ -1,0 +1,2 @@
+# Track all files in the angular-webpack directory with Git LFS
+TokenReview/ClientApp/.angular/cache/15.2.7/angular-webpack/** filter=lfs diff=lfs merge=lfs -text
