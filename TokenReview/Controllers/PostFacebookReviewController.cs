@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using TokenReview;
 
 namespace TokenReview.Controllers
 {
@@ -8,11 +9,10 @@ namespace TokenReview.Controllers
 	public class PostFacebookReviewController : ControllerBase
 	{
 		[HttpGet]
-		public IActionResult PostFacebookReview()
+		public async Task<IActionResult> PostFacebookReviewAsync()
 		{
-			// Your C# code to be executed goes here
-			// You can return a response if needed
-			return Ok(new { message = "C# code executed successfully" });
+			string review = await ReviewGeneration.GenerateReview();
+			return Ok(new { message = review });
 		}
 	}
 
