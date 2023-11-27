@@ -7,6 +7,7 @@ namespace TokenReview
 	{
 		public static async Task<string> GenerateReview()
 		{
+			//	Key deprecated, will no longer work with public visibility of GitHub repo for CV purposes
 			const string openAIToken = "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";
 			string businessName = "Starbucks";
 
